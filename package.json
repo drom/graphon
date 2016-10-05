@@ -4,8 +4,16 @@
   "description": "GraphQL experiments",
   "main": "lib/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint src/*.js"
   },
   "author": "alex.drom@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-graphql": "^0.5.4",
+    "graphql": "^0.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.1"
+  }
 }
